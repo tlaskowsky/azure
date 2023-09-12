@@ -94,7 +94,7 @@ The Compose model for the app is much simpler:
 
 - [rng-compose-v1.yml](/labs/aci-compose/rng-compose-v1.yml) - still uses the same container images, but the Compose integration takes care of some of the differences in ACI
 
-We can deploy to ACI using a `docker compose` command, but first we need to set up a Docker Context so our local CLI is configured to talk to Azure (we covered this in the [ACI lab](/labs/aci/README.md)):
+We can deploy to ACI using a `docker compose` command, but first we need to set up a Docker Context so our local CLI is configured to talk to Azure (we covered this in the [ACI lab](/labs/aci)):
 
 ```
 docker login azure
