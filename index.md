@@ -127,7 +127,7 @@ _AKS Integration_
 
 _Project_
 
-- [Project 3: Containerized App](/projects/conatinerized/README.md)
+- [Project 3: Containerized App](/projects/containerized/README.md)
 
 ## Serverless and App Management
 
