@@ -8,7 +8,7 @@ You introduce some complexity using namespaces but they give you a lot of safegu
 
 ## API specs
 
-- [Namespace](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#namespace-v1-core)
+- [Namespace](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#namespace-v1-core)
 
 <details>
   <summary>YAML overview</summary>
