@@ -1,6 +1,3 @@
-I apologize for the confusion earlier. Here is the translated text, maintaining the Markdown format:
-
-```markdown
 # Azure ラボへようこそ。
 
 これは Azure を学ぶための実践的なリソースです。
