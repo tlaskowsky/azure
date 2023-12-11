@@ -56,6 +56,7 @@ Docker Desktopはローカルでコンテナを実行し、Kubernetes環境を�
 
 完了したら、次のコマンドを実行して、エラーなしで応答が得られることを確認してください：
 
+```
 git version
 
 az --version
@@ -65,6 +66,7 @@ dotnet --list-sdks
 docker version
 
 kubectl version
+```
 
 
 > 実際のバージョン番号は気にしなくても大丈夫ですが、エラーが出る場合は調査が必要です。
