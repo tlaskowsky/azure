@@ -1,7 +1,8 @@
-# Lab Hints
+# ラボ ヒント
 
-You'll need to use some scripting knowledge here - the idea is to print out the names of groups which match the query, and feed that into a loop which runs the delete command.
+ここでは、いくつかのスクリプト知識が必要です - 目的は、クエリに一致するグループの名前を出力し、その名前をループにフィードして delete コマンドを実行することです。
 
-Any time you automate a command over a set of resources, make sure you get the query part right first. Experiment with the `--query` parameter and you'll see you can filter the matching resources and also select just part of the response in the output.
+リソースのセットに対してコマンドを自動化するときは、まずクエリ部分が正しいことを確認してください。`--query` パラメーターを試すと、一致するリソースをフィルタリングし、出力の一部のみを選択することができます。
 
-> Need more? Here's the [solution](solution.md).
+> もっと必要ですか？こちらが[解決策](solution_jp.md)です。
+
