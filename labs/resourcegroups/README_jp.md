@@ -1,68 +1,74 @@
-# Resource Groups
+# リソース グループ
 
-Resource Groups (RGs) are a container for all other Azure resources - VMs, SQL databases, Kubernetes clusters all get created inside a Resource Group. You might have one Resource Group for each application, containing all the components that app needs. Management permissions can be applied at the Resource Group level, and it's easy to remove all the resources by deleting the group.
+リソース グループ (RGs) は、他のすべての Azure リソース - VM、SQL データベース、Kubernetes クラスターなどを含むコンテナです。アプリケーションごとに1つのリソース グループを持ち、そのアプリが必要とするすべてのコンポーネントを含むことができます。管理権限はリソース グループレベルで適用され、グループを削除することですべてのリソースを簡単に削除できます。
 
-## Reference
+## 参照
 
-- [Resource Groups](https://docs.microsoft.com/en-gb/azure/azure-resource-manager/management/overview#resource-groups)
-- [Regions and geographies](https://azure.microsoft.com/en-gb/global-infrastructure/geographies/#overview)
-- [`az group` commands](https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest)
-- [JMESPath JSON query language](http://jmespath.org/)
+- [リソース グループ](https://docs.microsoft.com/ja-jp/azure/azure-resource-manager/management/overview#resource-groups)
+- [リージョンと地理](https://azure.microsoft.com/ja-jp/global-infrastructure/geographies/#overview)
+- [`az group` コマンド](https://docs.microsoft.com/ja-jp/cli/azure/group?view=azure-cli-latest)
+- [JMESPath JSON クエリ言語](http://jmespath.org/)
 
+## ポータルで新しい RG を作成
 
-## Create a new RG in the portal
+https://portal.azure.com を開き、必要に応じてサインインします。
 
-Open https://portal.azure.com and sign in if you need to. 
+_Azure サービス_ セクションから _リソースの作成_ を選択し、リソース グループを検索して新しいものを作成します。
 
-Select _Create a Resource_ from the _Azure services_ section, search for Resource Groups and create a new one.
+- 名前は `labs-rg-1` とします
+- 近くのリージョンを選択します（リストは _おすすめ_ と _その他_ に分かれています）
+- タグを追加: `courselabs=azure`
+- 作成をクリックし、リソースが準備できたというアラートを待ちます
+- リソース グループに移動し、UI を探索します
 
-- call it `labs-rg-1`
-- select a region near to you (note the list is split between _Recommended_ and _Others_)
-- add a tag: `courselabs=azure`
-- click create and watch for an alert to say the resource is ready
-- browse to the Resource Group and explore the UI
+> 各 _リージョン_ は近くのデータセンターの集まりです。通常、アプリのすべてのコンポーネントを同じリージョンに配置し、ネットワーク遅延を最小限に抑えます。高可用性のために他のリージョンに追加のデプロイメントを配置することもあります。
 
-> Each _region_ is a collection of nearby data centres. Typically you put all the components for an app into the same region, for minimal network latency. You may put additional deployments in other regions for high availability.
+リソース グループ自体ではあまり作業できませんが、他のリソースを格納するために常に RG を作成します。
 
-You can't do much with a Resource Group on its own, but we'll always create an RG to house other resources.
+## Azure CLI で RG を作成
 
-## Create an RG with the Azure CLI
+`az group` コマンドでリソース グループを管理します。利用可能なコマンドを確認するには、ヘルプを表示します。
 
-You manage Resource Groups with the `az group` commands. Print the help to see what's available:
 
 ```
 az group --help
 ```
 
-📋 Print the help text for creating a new RG. What parameters do you need to supply?
+📋 新しい RG を作成するためのヘルプテキストを表示します。どのパラメーターを提供する必要がありますか？
 
 <details>
-  <summary>Not sure?</summary>
+  <summary>わからない場合は？</summary>
 
-Help applies for groups of commands and individual commands:
+ヘルプはコマンドグループと個別のコマンドに適用されます：
 
 ```
 az group create --help
 ```
 
-The only required parameters are the group name and the region - which is confusingly referred to as the _location_ in most other `az` commands.
+
+唯一必要なパラメーターはグループ名とリージョンですが、他の `az` コマンドでは大抵 _ロケーション_ と呼ばれています。
 
 </details><br/>
 
-The CLI help text shows you how to find the list of regions too. 
+CLI のヘルプテキストでは、リージョンのリストの見つけ方も示されています。
 
-📋 Create a new RG called `labs-rg-2` in a different region from the first, with the same tag `courselabs=azure`.
+📋 最初のものと異なるリージョンで `labs-rg-2` という名前の新しい RG を作成し、同じタグ `courselabs=azure` を付けます。
 
 <details>
-  <summary>Not sure how?</summary>
+  <summary>方法がわからない場合は？</summary>
 
-Find the list of regions (this command is in the `group create` help text):
+リージョンのリストを見つけます（このコマンドは `group create` ヘルプテキストにあります）：
+
+
 
 ```
 az account list-locations -o table
 ```
 
-Create a group, this example uses West US 2:
+
+グループを作成します、この例では West US 2 を使用します：
+
+
 
 ```
 az group create -n labs-rg-2 -l westus2 --tags courselabs=azure
@@ -70,16 +76,16 @@ az group create -n labs-rg-2 -l westus2 --tags courselabs=azure
 
 </details><br/>
 
-When you create a resource with the CLI it waits until resource is ready and then prints the details.
+CLI でリソースを作成すると、リソースが準備できるまで待機し、その後詳細を表示します。
 
-## Manage Resource Groups
+## リソース グループの管理
 
-The `az` command line works in a consistent way for all resources. You create, list, show and delete them using the same verbs.
+`az` コマンドラインは、すべてのリソースに対して一貫した方法で動作します。同じ動詞を使用してそれらを作成、リスト表示、表示、削除します。
 
-📋 Print the list of all your RGs, showing the output in table form.
+📋 すべての RG のリストを表示し、出力をテーブル形式で表示します。
 
 <details>
-  <summary>Not sure how?</summary>
+  <summary>方法がわからない場合は？</summary>
 
 ```
 az group list -o table 
@@ -87,42 +93,52 @@ az group list -o table
 
 </details><br/>
 
-We added the same tag to both RGs. Tags are simple key-value pairs which you can add to all resource to help manage them. You might have an `environment` tag to identify resources in dev or UAT environments.
 
-You can add a query parameter to `list` commands to filter the results. Complete this query to print RGs which have the matching tag:
+両方の RG に同じタグを追加しました。タグは、管理に役立つすべてのリソースに追加できる単純なキー値ペアです。開発環境や UAT 環境のリソースを識別するために `environment` タグを使用することがあります。
+
+結果をフィルタリングするために、`list` コマンドにクエリパラメーターを追加できます。一致するタグを持つ RG を印刷するためにこのクエリを完成させます：
+
+
 
 ```
 az group list -o table --query "[?tags.courselabs ...
 ```
 
-> The query parameter uses [JMESPath](http://jmespath.org/), a JSON query language. Results find all matching RGs across all regions.
 
-## Delete Resource Groups
+> クエリパラメーターは [JMESPath](http://jmespath.org/) を使用します。これは JSON クエリ言語で、すべてのリージョンの一致する RG を見つける結果を返します。
 
-The `group delete` command removes a Resource Group - and any resources inside that group. You can have an RG with five Hadoop clusters and hundreds of Docker containers, and deleting the group will stop and remove the services and delete the data.
+## リソース グループの削除
 
-Because resource deletion is dangerous, the `az` command doesn't let you delete multiple groups based on a query. Try this - it will fail:
+`group delete` コマンドはリソース グループを削除します - そのグループ内のすべてのリソースも含みます。5つの Hadoop クラスターと数百の Docker コンテナを含む RG を持っていても、グループを削除するとサービスが停止され、データが削除されます。
+
+リソースの削除は危険なため、`az` コマンドではクエリに基づいて複数のグループを削除することはできません。これを試してください - 失敗します：
+
+
 
 ```
-# this will produce an error saying a group name is needed:
+# これはエラーを出し、グループ名が必要であると言います：
 az group delete --query "[?tags.courselabs=='azure']"
 ```
 
-📋 Delete the first resource group `labs-rg-1` using the command line.
+📋 コマンドラインを使用して最初のリソース グループ `labs-rg-1` を削除します。
 
 <details>
-  <summary>Not sure how?</summary>
+  <summary>方法がわからない場合は？</summary>
+
 
 ```
 az group delete -n labs-rg-1
 ```
 
+
 </details><br/>
 
-> You'll be asked for confirmation and then the command will wait until the group is deleted.
+> 削除の確認が求められ、その後グループが削除されるまでコマンドが待機します。
 
-## Lab
+## ラボ
 
-Sometimes you do want to delete all the resources that match in a query. How can you delete all the RGs with the courselabs tag with a single command?
+時には、クエリに一致するすべてのリソースを削除したい場合もあります。courselabs タグを持つすべての RG を単一のコマンドで削除するにはどうすればよいですか？
 
-> Stuck? Try [hints](hints.md) or check the [solution](solution.md).
+
+> 困ったときは、[ヒント](hints_jp.md)を試すか、[解決策](solution_jp.md)をチェックしてください。
+
