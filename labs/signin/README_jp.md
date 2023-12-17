@@ -100,4 +100,4 @@ az account list -o tsv
 
 Cloud Shellで`dotnet new`コマンドを使用して、新しいコンソールプロジェクトを作成します。C#ファイルをプロジェクトディレクトリにアップロードして実行してみてください。
 
-> つまずいたら、[ヒント](hints.md)を試すか、[解決策](solution.md)を確認してください。
+> つまずいたら、[ヒント](hints_jp.md)を試すか、[解決策](solution_jp.md)を確認してください。
