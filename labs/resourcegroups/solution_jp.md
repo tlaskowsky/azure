@@ -1,34 +1,45 @@
-# Lab Solution
+# ラボ解決策
 
-You can use JMESPath to filter RGs based on a tag:
+JMESPath を使用して、タグに基づいて RG をフィルタリングすることができます：
+
+
 
 ```
 az group list -o table --query "[?tags.courselabs == 'azure']" 
 ```
 
-Add a field name at the end to include just part of the resource details in the response:
+
+レスポンスにリソースの詳細の一部のみを含めるには、最後にフィールド名を追加します：
+
+
 
 ```
 az group list -o table --query "[?tags.courselabs == 'azure'].name"
 ```
 
-And switch to TSV format to lose the table header:
+
+テーブル ヘッダーを失うために TSV 形式に切り替えます：
+
+
 
 ```
 az group list -o tsv --query "[?tags.courselabs == 'azure'].name"
 ```
 
-> Now you have a list of group names you can feed into the delete command.
+> これで、delete コマンドにフィードできるグループ名のリストができました。
 
-How you do that depends on your shell.
+これを実行する方法は、使用しているシェルによります。
 
-_In PowerShell:_
+_PowerShell では：_
 
 ```
 az group list -o tsv --query "[?tags.courselabs == 'azure'].name" | foreach { az group delete -y -n $_ }
 ```
 
-_In Bash:_
+
+_Bash では：_
+
+
 
 ```
 for rg in $(az group list -o tsv --query "[?tags.courselabs == 'azure'].name"); do az group delete -y -n ${rg}; done
