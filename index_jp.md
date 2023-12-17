@@ -17,12 +17,12 @@
 
 _リソースグループとバーチャルマシン_
 
-- [サインイン](/labs/signin/README.md)
-- [リージョンとリソースグループ](/labs/resourcegroups/README.md)
-- [バーチャルマシン](/labs/vm/README.md)
-- [VM を Linux Web サーバーとして使用](/labs/vm-web/README.md)
-- [VM を Windows 開発マシンとして使用](/labs/vm-win/README.md)
-- [VM の自動設定](/labs/vm-config/README.md)
+- [サインイン](/labs/signin/README_jp.md)
+- [リージョンとリソースグループ](/labs/resourcegroups/README_jp.md)
+- [バーチャルマシン](/labs/vm/README_jp.md)
+- [VM を Linux Web サーバーとして使用](/labs/vm-web/README_jp.md)
+- [VM を Windows 開発マシンとして使用](/labs/vm-win/README_jp.md)
+- [VM の自動設定](/labs/vm-config/README_jp.md)
 
 _SQL データベースと ARM_
 
