@@ -6,4 +6,4 @@ Azure Cloud Shellには.NETがインストールされており、現在は.NET 
 
 プロジェクトができたら、Cloud ShellのUIを使用してC#ファイルをアップロードし、別の`dotnet`コマンドでアプリを実行できます。
 
-> もっと必要ですか？こちらが[解決策](solution.md)です。
+> もっと必要ですか？こちらが[解決策](solution_jp.md)です。
