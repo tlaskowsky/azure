@@ -216,7 +216,7 @@ az deployment group create --name vm-simple-linux -g labs-arm  --template-file l
 
 JSONテンプレートでVMの仕様を変更し、静的IPアドレス `10.1.0.102` を使用するようにします。新しいリソースグループを作成し、新しいテンプレートをデプロイして、デプロイメントが繰り返し可能であることを確認してください。
 
-> 困ったら、[ヒント](hints.md)を試すか、[解決策](solution.md)をチェックしてください。
+> 困ったら、[ヒント](hints_jp.md)を試すか、[解決策](solution_jp.md)をチェックしてください。
 
 ___
 
