@@ -46,10 +46,10 @@ _サブスクリプションと地域に合った有効な（小さい）VM サ�
 
 ```
 # PowerShell で：
-az vm list-sizes -o table --query "[?numberOfCores<=``2`` && memoryInMb==``2048``]" --location "southeastasia"
+az vm list-sizes -o table --query "[?numberOfCores<=``2`` && memoryInMB==``2048``]" --location "southeastasia"
 
 # Bash で：
-az vm list-sizes -o table --query "[?numberOfCores<=\`2\` && memoryInMb==\`2048\`]" --location "southeastasia"
+az vm list-sizes -o table --query "[?numberOfCores<=\`2\` && memoryInMB==\`2048\`]" --location "southeastasia"
 ```
 
 
