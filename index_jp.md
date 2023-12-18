@@ -26,11 +26,11 @@ _リソースグループとバーチャルマシン_
 
 _SQL データベースと ARM_
 
-- [SQL Server](/labs/sql/README.md)
-- [SQL Server VM](/labs/sql-vm/README.md)
-- [データベーススキーマのデプロイ](/labs/sql-schema/README.md)
-- [ARM による自動化](/labs/arm/README.md)
-- [Bicep による自動化](/labs/arm-bicep/README.md)
+- 🇯🇵[SQL Server](/labs/sql/README_jp.md)
+- 🇯🇵[SQL Server VM](/labs/sql-vm/README_jp.md)
+- 🇯🇵[データベーススキーマのデプロイ](/labs/sql-schema/README_jp.md)
+- 🇯🇵[ARM による自動化](/labs/arm/README_jp.md)
+- 🇯🇵[Bicep による自動化](/labs/arm-bicep/README_jp.md)
 
 _App の IaaS によるデプロイ_
 
