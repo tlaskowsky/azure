@@ -159,7 +159,7 @@ Bicepテンプレートには非常に明確な入力と出力があります。
 - SQLデータベースSKUは`Basic`または`Standard`のいずれかでなければなりません
 - デプロイするサンプルデータベーススキーマの名前は、`AdventureWorksLT`または`WideWorldImportersStd`のいずれかでなければなりません
 
-> 困ったら、[ヒント](hints.md)を試すか、[解決策](solution.md)をチェックしてください。
+> 困ったら、[ヒント](hints_jp.md)を試すか、[解決策](solution_jp.md)をチェックしてください。
 
 ___
 
