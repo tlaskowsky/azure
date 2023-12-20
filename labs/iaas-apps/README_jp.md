@@ -33,7 +33,7 @@ az group create -n $rg  -l $location --tags courselabs=azure
 
 デプロイするアプリケーションはデータベーススキーマを作成するので、接続可能な空のデータベースから始めるだけで良いです。
 
-📋 リソースグループにSQLサーバーとSQLデータベースを作成します（[SQLラボ](/labs/sql/README.md)で説明されています）。
+📋 リソースグループにSQLサーバーとSQLデータベースを作成します（[SQLラボ](/labs/sql/README_jp.md)で説明されています）。
 
 <details>
   <summary>わからない場合</summary>
