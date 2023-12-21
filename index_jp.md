@@ -42,11 +42,11 @@ _App の IaaS によるデプロイ_
 
 _App サービス_
 
-- [Web アプリケーション用 App サービス](/labs/appservice/README.md)
-- [静的 Web アプリ用 App サービス](/labs/appservice-static/README.md)
-- [分散アプリ用 App サービス](/labs/appservice-api/README.md)
-- [App サービスの設定と管理](/labs/appservice-config/README.md)
-- [App サービス CI/CD](/labs/appservice-cicd/README.md)
+- 🇯🇵[Web アプリケーション用 App サービス](/labs/appservice/README.md)
+- 🇯🇵[静的 Web アプリ用 App サービス](/labs/appservice-static/README.md)
+- 🇯🇵[分散アプリ用 App サービス](/labs/appservice-api/README.md)
+- 🇯🇵[App サービスの設定と管理](/labs/appservice-config/README.md)
+- 🇯🇵[App サービス CI/CD](/labs/appservice-cicd/README.md)
 
 _プロジェクト_
 
