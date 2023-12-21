@@ -34,23 +34,23 @@ _SQL データベースと ARM_
 
 _App の IaaS によるデプロイ_
 
-- 🇯🇵[IaaS アプリのデプロイ](/labs/iaas-apps/README.md)
-- 🇯🇵[IaaS アプリデプロイの自動化](/labs/iaas-bicep/README.md)
-- 🇯🇵[VM イメージの作成と使用](/labs/vm-image/README.md)
-- 🇯🇵[VM スケールセットによるスケーリング](/labs/vmss-win/README.md)
-- 🇯🇵[cloud-init を使用したスケールセットのプロビジョニング](/labs/vmss-linux/README.md)
+- 🇯🇵[IaaS アプリのデプロイ](/labs/iaas-apps/README_jp.md)
+- 🇯🇵[IaaS アプリデプロイの自動化](/labs/iaas-bicep/README_jp.md)
+- 🇯🇵[VM イメージの作成と使用](/labs/vm-image/README_jp.md)
+- 🇯🇵[VM スケールセットによるスケーリング](/labs/vmss-win/README_jp.md)
+- 🇯🇵[cloud-init を使用したスケールセットのプロビジョニング](/labs/vmss-linux/README_jp.md)
 
 _App サービス_
 
-- 🇯🇵[Web アプリケーション用 App サービス](/labs/appservice/README.md)
-- 🇯🇵[静的 Web アプリ用 App サービス](/labs/appservice-static/README.md)
-- 🇯🇵[分散アプリ用 App サービス](/labs/appservice-api/README.md)
-- 🇯🇵[App サービスの設定と管理](/labs/appservice-config/README.md)
-- 🇯🇵[App サービス CI/CD](/labs/appservice-cicd/README.md)
+- 🇯🇵[Web アプリケーション用 App サービス](/labs/appservice/README_jp.md)
+- 🇯🇵[静的 Web アプリ用 App サービス](/labs/appservice-static/README_jp.md)
+- 🇯🇵[分散アプリ用 App サービス](/labs/appservice-api/README_jp.md)
+- 🇯🇵[App サービスの設定と管理](/labs/appservice-config/README_jp.md)
+- 🇯🇵[App サービス CI/CD](/labs/appservice-cicd/README_jp.md)
 
 _プロジェクト_
 
-- [プロジェクト 1: Lift and Shift](/projects/lift-and-shift/README.md)
+- 🇯🇵[プロジェクト 1: Lift and Shift](/projects/lift-and-shift/README_jp.md)
 
 ## ストレージと通信
 
