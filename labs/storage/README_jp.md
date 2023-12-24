@@ -178,7 +178,7 @@ az vm create -l southeastasia -g labs-storage -n vm04 --image UbuntuLTS --size S
 
 ストレージアカウントには、Azure内のSQL Serverと同様のファイアウォールオプションがあります。それを使用して、元のSAが自分のIPアドレスからのみアクセスできるようにセキュリティを強化します。document.txtファイルをダウンロードできることを確認し、その後VMにログインしてファイルがダウンロードできないことを確認してください。
 
-> 詰まったら[ヒント](hints.md)を試すか、[解決策](solution.md)を確認してください。
+> 詰まったら[ヒント](hints_jp.md)を試すか、[解決策](solution_jp.md)を確認してください。
 
 ___
 
