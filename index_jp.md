@@ -56,11 +56,11 @@ _プロジェクト_
 
 _ストレージアカウント_
 
-- [ストレージアカウント](/labs/storage/README.md)
-- [Blob ストレージ](/labs/storage-blob/README.md)
-- [ファイルシェア](/labs/storage-files/README.md)
-- [静的 Web コンテンツ用のストレージの使用](/labs/storage-static/README.md)
-- [テーブルストレージの利用](/labs/storage-table/README.md)
+- 🇯🇵[ストレージアカウント](/labs/storage/README.md)
+- 🇯🇵[Blob ストレージ](/labs/storage-blob/README.md)
+- 🇯🇵[ファイルシェア](/labs/storage-files/README.md)
+- 🇯🇵[静的 Web コンテンツ用のストレージの使用](/labs/storage-static/README.md)
+- 🇯🇵[テーブルストレージの利用](/labs/storage-table/README.md)
 
 _Cosmos DB_
 
