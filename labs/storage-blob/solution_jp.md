@@ -17,4 +17,4 @@ az storage blob set-tier --container-name labs --name 'storage-blob/README.md' -
 
 > ポータルはBlobがダウンロードできるかどうかを示し、リハイドレートには数時間かかる可能性があると教えてくれます :)
 
-[リハイドレートについて](https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-over
+[リハイドレートについて](https://learn.microsoft.com/ja-jp/azure/storage/blobs/archive-rehydrate-overview)
