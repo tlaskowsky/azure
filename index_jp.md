@@ -64,10 +64,10 @@ _ストレージアカウント_
 
 _Cosmos DB_
 
-- [Cosmos DB](/labs/cosmos/README.md)
-- [Mongo API を使用した Cosmos DB](/labs/cosmos-mongo/README.md)
-- [Table API を使用した Cosmos DB](/labs/cosmos-table/README.md)
-- [Cosmos DB のパフォーマンスと課金](/labs/cosmos-perf/README.md)
+- 🇯🇵[Cosmos DB](/labs/cosmos/README.md)
+- 🇯🇵[Mongo API を使用した Cosmos DB](/labs/cosmos-mongo/README.md)
+- 🇯🇵[Table API を使用した Cosmos DB](/labs/cosmos-table/README.md)
+- 🇯🇵[Cosmos DB のパフォーマンスと課金](/labs/cosmos-perf/README.md)
 
 
 
