@@ -73,11 +73,11 @@ _Cosmos DB_
 
 _KeyVault と仮想ネットワーク_
 
-- [KeyVault](/labs/keyvault/README.md)
-- [仮想ネットワーク](/labs/vnet/README.md)
-- [KeyVault アクセスのセキュリティ](/labs/keyvault-access/README.md)
-- [VNet アクセスのセキュリティ](/labs/vnet-access/README.md)
-- [KeyVault と VNet を使用したアプリのセキュリティ](/labs/vnet-apps/README.md)
+- 🇯🇵[KeyVault](/labs/keyvault/README.md)
+- 🇯🇵[仮想ネットワーク](/labs/vnet/README.md)
+- 🇯🇵[KeyVault アクセスのセキュリティ](/labs/keyvault-access/README.md)
+- 🇯🇵[VNet アクセスのセキュリティ](/labs/vnet-access/README.md)
+- 🇯🇵[KeyVault と VNet を使用したアプリのセキュリティ](/labs/vnet-apps/README.md)
 
 _イベントとメッセージ_
 
