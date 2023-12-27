@@ -81,15 +81,15 @@ _KeyVault と仮想ネットワーク_
 
 _イベントとメッセージ_
 
-- [Service Bus キュー](/labs/servicebus/README.md)
-- [Service Bus トピック](/labs/servicebus-pubsub/README.md)
-- [Event Hubs](/labs/eventhubs/README.md)
-- [分割された消費者を持つ Event Hubs](/labs/eventhubs-consumers/README.md)
-- [Azure Cache for Redis](/labs/redis/README.md)
+- 🇯🇵[Service Bus キュー](/labs/servicebus/README_jp.md)
+- 🇯🇵[Service Bus トピック](/labs/servicebus-pubsub/README_jp.md)
+- 🇯🇵[Event Hubs](/labs/eventhubs/README_jp.md)
+- 🇯🇵[分割された消費者を持つ Event Hubs](/labs/eventhubs-consumers/README_jp.md)
+- 🇯🇵[Azure Cache for Redis](/labs/redis/README_jp.md)
 
 _プロジェクト_
 
-- [プロジェクト 2: 分散アプリ](/projects/distributed/README.md)
+- 🇯🇵[プロジェクト 2: 分散アプリ](/projects/distributed/README_jp.md)
 
 ## コンピュートとコンテナ
 
