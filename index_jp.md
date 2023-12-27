@@ -56,28 +56,28 @@ _プロジェクト_
 
 _ストレージアカウント_
 
-- 🇯🇵[ストレージアカウント](/labs/storage/README.md)
-- 🇯🇵[Blob ストレージ](/labs/storage-blob/README.md)
-- 🇯🇵[ファイルシェア](/labs/storage-files/README.md)
-- 🇯🇵[静的 Web コンテンツ用のストレージの使用](/labs/storage-static/README.md)
-- 🇯🇵[テーブルストレージの利用](/labs/storage-table/README.md)
+- 🇯🇵[ストレージアカウント](/labs/storage/README_jp.md)
+- 🇯🇵[Blob ストレージ](/labs/storage-blob/README_jp.md)
+- 🇯🇵[ファイルシェア](/labs/storage-files/README_jp.md)
+- 🇯🇵[静的 Web コンテンツ用のストレージの使用](/labs/storage-static/README_jp.md)
+- 🇯🇵[テーブルストレージの利用](/labs/storage-table/README_jp.md)
 
 _Cosmos DB_
 
-- 🇯🇵[Cosmos DB](/labs/cosmos/README.md)
-- 🇯🇵[Mongo API を使用した Cosmos DB](/labs/cosmos-mongo/README.md)
-- 🇯🇵[Table API を使用した Cosmos DB](/labs/cosmos-table/README.md)
-- 🇯🇵[Cosmos DB のパフォーマンスと課金](/labs/cosmos-perf/README.md)
+- 🇯🇵[Cosmos DB](/labs/cosmos/README_jp.md)
+- 🇯🇵[Mongo API を使用した Cosmos DB](/labs/cosmos-mongo/README_jp.md)
+- 🇯🇵[Table API を使用した Cosmos DB](/labs/cosmos-table/README_jp.md)
+- 🇯🇵[Cosmos DB のパフォーマンスと課金](/labs/cosmos-perf/README_jp.md)
 
 
 
 _KeyVault と仮想ネットワーク_
 
-- 🇯🇵[KeyVault](/labs/keyvault/README.md)
-- 🇯🇵[仮想ネットワーク](/labs/vnet/README.md)
-- 🇯🇵[KeyVault アクセスのセキュリティ](/labs/keyvault-access/README.md)
-- 🇯🇵[VNet アクセスのセキュリティ](/labs/vnet-access/README.md)
-- 🇯🇵[KeyVault と VNet を使用したアプリのセキュリティ](/labs/vnet-apps/README.md)
+- 🇯🇵[KeyVault](/labs/keyvault/README_jp.md)
+- 🇯🇵[仮想ネットワーク](/labs/vnet/README_jp.md)
+- 🇯🇵[KeyVault アクセスのセキュリティ](/labs/keyvault-access/README_jp.md)
+- 🇯🇵[VNet アクセスのセキュリティ](/labs/vnet-access/README_jp.md)
+- 🇯🇵[KeyVault と VNet を使用したアプリのセキュリティ](/labs/vnet-apps/README_jp.md)
 
 _イベントとメッセージ_
 
