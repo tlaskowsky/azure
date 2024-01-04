@@ -95,20 +95,20 @@ _プロジェクト_
 
 _Docker と Azure コンテナ インスタンス_
 
-- [Docker 101](/labs/docker/README.md)
-- [Docker イメージと Azure コンテナ レジストリ](/labs/acr/README.md)
-- [Azure コンテナ インスタンス](/labs/aci/README.md)
-- [Docker Compose を使用した分散アプリ](/labs/docker-compose/README.md)
-- [ACI を使用した分散アプリ](/labs/aci-compose/README.md)
+- 🇯🇵[Docker 101](/labs/docker/README_jp.md)
+- 🇯🇵[Docker イメージと Azure コンテナ レジストリ](/labs/acr/README_jp.md)
+- 🇯🇵[Azure コンテナ インスタンス](/labs/aci/README_jp.md)
+- 🇯🇵[Docker Compose を使用した分散アプリ](/labs/docker-compose/README_jp.md)
+- 🇯🇵[ACI を使用した分散アプリ](/labs/aci-compose/README_jp.md)
 
 _Kubernetes_
 
-- [ノード](/labs/kubernetes/nodes/README.md)
-- [ポッド](/labs/kubernetes/pods/README.md)
-- [サービス](/labs/kubernetes/services/README.md)
-- [デプロイメント](/labs/kubernetes/deployments/README.md)
-- [ConfigMaps](/labs/kubernetes/configmaps/README.md)
-- [Azure Kubernetes サービス](/labs/aks/README.md)
+- 🇯🇵[ノード](/labs/kubernetes/nodes/README_jp.md)
+- 🇯🇵[ポッド](/labs/kubernetes/pods/README_jp.md)
+- 🇯🇵[サービス](/labs/kubernetes/services/README_jp.md)
+- 🇯🇵[デプロイメント](/labs/kubernetes/deployments/README_jp.md)
+- 🇯🇵[ConfigMaps](/labs/kubernetes/configmaps/README_jp.md)
+- 🇯🇵[Azure Kubernetes サービス](/labs/aks/README_jp.md)
 
 _中級 Kubernetes_
 
