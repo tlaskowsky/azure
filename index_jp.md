@@ -121,11 +121,11 @@ _中級 Kubernetes_
 
 _AKS インテグレーション_
 
-- [名前空間](/labs/kubernetes/namespaces/README.md)
-- [シークレット](/labs/kubernetes/secrets/README.md)
-- [KeyVault シークレットを使用した AKS](/labs/aks-keyvault/README.md)
-- [Helm](/labs/kubernetes/helm/README.md)
-- [KeyVault と VNet を使用した AKS アプリのセキュリティ](/labs/aks-apps/README.md)
+- 🇯🇵[名前空間](/labs/kubernetes/namespaces/README_jp.md)
+- 🇯🇵[シークレット](/labs/kubernetes/secrets/README_jp.md)
+- 🇯🇵[KeyVault シークレットを使用した AKS](/labs/aks-keyvault/README_jp.md)
+- 🇯🇵[Helm](/labs/kubernetes/helm/README_jp.md)
+- 🇯🇵[KeyVault と VNet を使用した AKS アプリのセキュリティ](/labs/aks-apps/README_jp.md)
 
 _プロジェクト_
 
