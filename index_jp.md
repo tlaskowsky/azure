@@ -112,12 +112,12 @@ _Kubernetes_
 
 _中級 Kubernetes_
 
-- [PersistentVolumes](/labs/kubernetes/persistentvolumes/README.md)
-- [AKS PersistentVolumes](/labs/aks-persistentvolumes/README.md)
-- [Ingress](/labs/kubernetes/ingress/README.md)
-- [Application Gateway Ingress Controller を使用した AKS](/labs/aks-ingress/README.md)
-- [コンテナプローブ](/labs/kubernetes/containerprobes/README.md)
-- [トラブルシューティング](/labs/kubernetes/troubleshooting/README.md)
+- 🇯🇵[PersistentVolumes](/labs/kubernetes/persistentvolumes/README_jp.md)
+- 🇯🇵[AKS PersistentVolumes](/labs/aks-persistentvolumes/README_jp.md)
+- 🇯🇵[Ingress](/labs/kubernetes/ingress/README_jp.md)
+- 🇯🇵[Application Gateway Ingress Controller を使用した AKS](/labs/aks-ingress/README_jpE.md)
+- 🇯🇵[コンテナプローブ](/labs/kubernetes/containerprobes/README_jp.md)
+- 🇯🇵[トラブルシューティング](/labs/kubernetes/troubleshooting/README_jp.md)
 
 _AKS インテグレーション_
 
