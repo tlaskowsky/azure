@@ -129,7 +129,7 @@ _AKS インテグレーション_
 
 _プロジェクト_
 
-- [プロジェクト 3: コンテナライズされたアプリ](/projects/containerized/README.md)
+- 🇯🇵[プロジェクト 3: コンテナライズされたアプリ](/projects/containerized/README_jp.md)
 
 ## サーバーレスとアプリ管理
 
