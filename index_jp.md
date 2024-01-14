@@ -135,12 +135,12 @@ _プロジェクト_
 
 _Azure 関数_
 
-- [HTTP トリガー](/labs/functions/http/README.md)
-- [タイマートリガー & blob 出力](/labs/functions/timer/README.md)
-- [Blob トリガー & SQL 出力](/labs/functions/blob/README.md)
-- [Service Bus トリガー & 複数の出力](/labs/functions/servicebus/README.md)
-- [RabbitMQ トリガー & blob 出力](/labs/functions/rabbitmq/README.md)
-- [CosmosDB トリガー & 出力](/labs/functions/cosmos/README.md)
+- 🇯🇵[HTTP トリガー](/labs/functions/http/README_jp.md)
+- 🇯🇵[タイマートリガー & blob 出力](/labs/functions/timer/README_jp.md)
+- 🇯🇵[Blob トリガー & SQL 出力](/labs/functions/blob/README_jp.md)
+- 🇯🇵[Service Bus トリガー & 複数の出力](/labs/functions/servicebus/README_jp.md)
+- 🇯🇵[RabbitMQ トリガー & blob 出力](/labs/functions/rabbitmq/README_jp.md)
+- 🇯🇵[CosmosDB トリガー & 出力](/labs/functions/cosmos/README_jp.md)
 
 _デュラブルファンクション_
 
