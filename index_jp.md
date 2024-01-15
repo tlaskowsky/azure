@@ -144,12 +144,12 @@ _Azure 関数_
 
 _デュラブルファンクション_
 
-- [Azure FunctionsのCI/CD](/labs/functions/cicd/README.md)
-- [耐久性のあるファンクション](/labs/functions-durable/chained/README.md)
-- [ファンアウト・ファンインパターン](/labs/functions-durable/fan-out/README.md)
-- [人間とのインタラクションパターン](/labs/functions-durable/human/README.md)
-- [Azure SignalRサービス](/labs/signalr/README.md)
-- [SignalRファンクションの出力](/labs/functions/signalr/README.md)
+- 🇯🇵[Azure FunctionsのCI/CD](/labs/functions/cicd/README_jp.md)
+- 🇯🇵[耐久性のあるファンクション](/labs/functions-durable/chained/README_jp.md)
+- 🇯🇵[ファンアウト・ファンインパターン](/labs/functions-durable/fan-out/README_jp.md)
+- 🇯🇵[人間とのインタラクションパターン](/labs/functions-durable/human/README_jp.md)
+- 🇯🇵[Azure SignalRサービス](/labs/signalr/README_jp.md)
+- 🇯🇵[SignalRファンクションの出力](/labs/functions/signalr/README_jp.md)
 
 _API管理_
 
@@ -170,4 +170,4 @@ _モニタリング_
 
 _プロジェクト_
 
-- [プロジェクト4: サーバーレスアプリ](/projects/serverless/README.md)
+- 🇯🇵[プロジェクト4: サーバーレスアプリ](/projects/serverless/README_jp.md)
