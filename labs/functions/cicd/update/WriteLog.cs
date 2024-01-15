@@ -10,7 +10,7 @@ namespace ChainedFunctions
     public class UploadLog
     {
         [FunctionName("WriteLog")]  
-        [StorageAccount("StorageConnectionString")]      
+        [StorageAccount("DefaultEndpointsProtocol=https;AccountName=mlmdurablchainedstr;AccountKey=zddBBmtHQfWeGZZ6stm71O6YozG+LTQ3H8Cx//dSmNAFcqJ3mt7ZSWr1nnpytw9S4rW+F2di9lfZ+ASt4CfPKA==;EndpointSuffix=core.windows.net")]      
         public async Task Run(
             [BlobTrigger("heartbeat/{name}")] Stream uploadedBlob,
             [Table("heartbeats")] IAsyncCollector<HeartbeatLogEntity> entities,                          
