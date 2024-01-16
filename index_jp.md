@@ -153,10 +153,10 @@ _デュラブルファンクション_
 
 _API管理_
 
-- [API管理](/labs/apim/README.md)
-- [APIのモッキング](/labs/apim-mock/README.md)
-- [ポリシーによるAPIのセキュリティ](/labs/apim-policies/README.md)
-- [破壊的変更のためのAPIバージョニング](/labs/apim-versioning/README.md)
+- 🇯🇵[API管理](/labs/apim/README_jp.md)
+- 🇯🇵[APIのモッキング](/labs/apim-mock/README_jp.md)
+- 🇯🇵[ポリシーによるAPIのセキュリティ](/labs/apim-policies/README_jp.md)
+- 🇯🇵[破壊的変更のためのAPIバージョニング](/labs/apim-versioning/README_jp.md)
 
 _Webアプリケーションファイアウォール & CDN_
 
