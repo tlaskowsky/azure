@@ -160,13 +160,13 @@ _API管理_
 
 _Webアプリケーションファイアウォール & CDN_
 
-- [アプリケーションゲートウェイ & WAF](/labs/appgw/README.md)
-- [CDN & WAF付きフロントドア](/labs/frontdoor/README.md)
+- 🇯🇵[アプリケーションゲートウェイ & WAF](/labs/appgw/README_jp.md)
+- 🇯🇵[CDN & WAF付きフロントドア](/labs/frontdoor/README_jp.md)
 
 _モニタリング_
 
-- [Application Insightsによるモニタリング](/labs/applicationinsights/README.md)
-- [Log Analyticsを使用したログとメトリックのクエリ](/labs/loganalytics/README.md)
+- 🇯🇵[Application Insightsによるモニタリング](/labs/applicationinsights/README_jp.md)
+- 🇯🇵[Log Analyticsを使用したログとメトリックのクエリ](/labs/loganalytics/README_jp.md)
 
 _プロジェクト_
 
