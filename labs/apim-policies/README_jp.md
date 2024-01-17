@@ -121,7 +121,7 @@ SWAPI APIをAPIMの製品の1つに追加し、Postman（または `curl -v`）�
 
 SWAPIからのレスポンスはかなり良いRESTです。たとえば、`people/3`には _species（種）_ フィールドがあり、`species/2`へのリンクがあります。これらのリンクを自分のAPIMラッパーからSWAPIにたどることができますか？それは良いことですか、悪いことですか？
 
-> 詰まったら、[提案](suggestions_jp.md) を試してみてください
+> 詰まったら、[提案](suggestions_jp.md) 　を試してみてください
 ___
 
 ## クリーンアップ
