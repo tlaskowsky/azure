@@ -42,7 +42,8 @@ az network vnet subnet create -g labs-appgw --vnet-name vnet -n appgw --address-
 
 > アプリケーションゲートウェイはvnet内にデプロイする必要があります
 
-次に、ウェブアプリケーションファイアウォール（WAF）機能を使用するため、OWASPルール（[OWASPトップ10](https://owasp.org/www-project-top-ten/)の背後にある組織）を実装するWAFポリシーから始めてアプリケ
+現在、アプリケーションゲートウェイ（AppGW）を作成しましょう - 私たちはWebアプリケーションファイアウォール（WAF）機能を使用するつもりですので、[OWASPトップ10](https://owasp.org/www-project-top-ten/)の背後にある組織からのOWASPルールを実装するWAFポリシーから始めます。
+
 
 ```
 # 最新の3.2ルールセットを使用してWAFポリシーを作成
