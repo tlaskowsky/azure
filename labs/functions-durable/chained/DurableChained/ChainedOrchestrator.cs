@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 namespace DurableChained;
 public static class ChainedOrchestrator
 {
-    [FunctionName("ChainedOrchestrator")]
+    [FunctionName("mlmdurablChainedfunc")]
     public static async Task RunOrchestrator(
         [OrchestrationTrigger] IDurableOrchestrationContext context,
         ILogger log)
